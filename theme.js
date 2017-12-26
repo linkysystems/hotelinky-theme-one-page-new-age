@@ -1,0 +1,135 @@
+/**
+ * @module  Theme
+ * @name    one-age-new-age
+ */
+
+module.exports = {
+  imageThumbnail: '',
+  imageLarge: '',
+  description: 'Uma página, apresentando todas as informações relevantes na home e com um slideshow incrível!',
+
+  // theme config
+  configs: {
+    emailTemplates: {
+      path: 'templates/email',
+    },
+    javascript: 'files/public/script.min.js',
+    stylesheet: 'files/public/style-default.css',
+
+    colors: {
+      default: {
+        label: 'Cor padrão do tema',
+        stylesheet: 'files/public/style-default.css',
+        colors: [
+          { value: '#ab4240' },
+          { value: '#fcbd20' },
+          { value: '#fdc539' },
+          { value: '#000' },
+          { value: '#fff' },
+          { value: '#222222' },
+          { value: '#FFD15A' }
+        ]
+      },
+      gray: {
+        label: 'Cores: preto, branco e cinza',
+        stylesheet: 'files/public/style-gray.css',
+        colors: [
+          {
+            value: '#ccc'
+          },
+          {
+            value: '#dfdfdf'
+          },
+          {
+            value: '#aaa'
+          },
+          {
+            value: '#000'
+          }
+        ]
+      }
+    }
+  },
+
+  autoLoadAllTemplates: true,
+  // will be auto loaded
+  templates: {},
+  // set layouts here
+  layouts: {
+    'default': {
+      template: __dirname + '/templates/server/layouts/default-layout.hbs',
+      regions: {
+        highlighted: {
+          name: 'Destacado'
+        },
+        sidebar: {
+          name: 'Barra lateral'
+        },
+        profileSidebar: {
+          name: 'Barra lateral do perfil'
+        },
+        content: {
+          name: 'Central'
+        },
+        afterContent: {
+          name: 'Depois do conteúdo'
+        }
+      }
+    },
+    'user-layout': {
+      template: __dirname + '/templates/server/layouts/user-layout.hbs',
+      regions: {
+        highlighted: {
+          name: 'Destacado'
+        },
+        profileSidebar: {
+          name: 'Barra lateral do perfil'
+        },
+        content: {
+          name: 'Central'
+        },
+        afterContent: {
+          name: 'Depois do conteúdo'
+        }
+      }
+    },
+    'fullwidth': {
+      template: __dirname + '/templates/server/layouts/full-width-layout.hbs',
+      regions: {
+        highlighted: {
+          name: 'Highlighted'
+        }
+      }
+    },
+    'home': {
+      template: __dirname + '/templates/server/layouts/home.hbs',
+      regions: {
+        highlighted: {
+          name: 'Destacado'
+        },
+        content: {
+          name: 'Central'
+        },
+        afterContent: {
+          name: 'Depois do conteúdo'
+        }
+      }
+    },
+    'eventHome': {
+      template: __dirname + '/templates/server/layouts/event-home-layout.hbs',
+      regions: {
+        highlighted: {
+          name: 'Highlighted'
+        },
+      }
+    },
+  },
+  widgets: {
+    // 'we-cf-speakers': __dirname + '/templates/server/widgets/we-cf-speakers.hbs',
+    // 'we-cf-schedule': __dirname + '/templates/server/widgets/we-cf-schedule.hbs',
+    'html': __dirname + '/templates/server/widgets/html-widget.hbs',
+    // 'we-cf-topics': __dirname + '/templates/server/widgets/we-cf-topics.hbs',
+    // 'we-cf-video': __dirname + '/templates/server/widgets/we-cf-video.hbs',
+    // 'we-cf-news': __dirname + '/templates/server/widgets/we-cf-news.hbs'
+  }
+};
