@@ -7438,6 +7438,13 @@ hr {
 html > object {
   display: none;
 }
+body.iframe-page-type #we-layout {
+  margin-top: 3px;
+}
+body.iframe-page-type #weAdminBar,
+body.iframe-page-type #afterWeadmin {
+  display: none;
+}
 body.iframe-page-type .header-topbar {
   display: none;
 }
@@ -7581,14 +7588,22 @@ body.iframe-page-type footer {
   border-top: 1px solid #ccc;
   border-color: #ccc;
 }
+.form-title-field-group {
+  margin-bottom: 5px;
+}
+.form-description-field,
+.form-description-field p,
 .we-form-group-description {
-  font-size: 0.9em;
+  font-size: 15px;
+  line-height: normal;
 }
 .d-form-title {
   font-weight: bold;
   color: #ab4240;
 }
+.form-title-field,
 .we-form-group-title {
+  font-size: 20px;
   font-weight: bold;
   color: #ab4240;
 }
