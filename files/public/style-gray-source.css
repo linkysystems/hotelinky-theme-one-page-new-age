@@ -7202,6 +7202,7 @@ header {
 }
 .carousel {
   background-color: #fff;
+  border-bottom: 1px solid #ccc;
 }
 .carousel-control.left,
 .carousel-control.right {
