@@ -7200,6 +7200,13 @@ header {
     line-height: 170%;
   }
 }
+.carousel {
+  background-color: #fff;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
 .carousel-inner .item {
   background-size: cover;
   background-position: center;
