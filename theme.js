@@ -69,6 +69,16 @@ module.exports = {
           { value: '#fff' },
           { value: '#FEA313' }
         ]
+      },
+      lightblue: {
+        label: 'Cores: azul claro e branco',
+        stylesheet: 'files/public/style-lightblue.css',
+        colors: [
+          { value: '#71C3B7' },
+          { value: '#182c2f' },
+          { value: '#fff' },
+          { value: '#FEA313' }
+        ]
       }
     }
   },
