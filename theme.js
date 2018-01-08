@@ -34,18 +34,40 @@ module.exports = {
         label: 'Cores: preto, branco e cinza',
         stylesheet: 'files/public/style-gray.css',
         colors: [
-          {
-            value: '#ccc'
-          },
-          {
-            value: '#dfdfdf'
-          },
-          {
-            value: '#aaa'
-          },
-          {
-            value: '#000'
-          }
+          { value: '#ccc' },
+          { value: '#dfdfdf' },
+          { value: '#aaa' },
+          { value: '#000' }
+        ]
+      },
+      darkgreen: {
+        label: 'Cores: verde escuro, branco e vermelho claro nos links',
+        stylesheet: 'files/public/style-darkgreen.css',
+        colors: [
+          { value: '#003929' },
+          { value: '#ab4240' },
+          { value: '#fff' },
+          { value: '#00291e' }
+        ]
+      },
+      lightgreen: {
+        label: 'Cores: verde claro, branco e laranja claro nos links',
+        stylesheet: 'files/public/style-lightgreen.css',
+        colors: [
+          { value: '#8aff87' },
+          { value: '#FEA313' },
+          { value: '#fff' },
+          { value: '#00291e' }
+        ]
+      },
+      darkblue: {
+        label: 'Cores: azul escuro, branco e laranja claro nos links',
+        stylesheet: 'files/public/style-darkblue.css',
+        colors: [
+          { value: '#22296f' },
+          { value: '#022480' },
+          { value: '#fff' },
+          { value: '#FEA313' }
         ]
       }
     }

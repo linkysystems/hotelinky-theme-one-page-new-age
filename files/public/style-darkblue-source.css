@@ -6746,11 +6746,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #ab4240;
+  color: #FEA313;
 }
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #FEA313;
 }
 hr {
   max-width: 100px;
@@ -6794,11 +6794,11 @@ p {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: bold;
   letter-spacing: 1px;
-  color: #000;
+  color: #030731;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
+  color: #FEA313;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
@@ -6813,15 +6813,15 @@ p {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #000;
+  color: #030731;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fcbd20;
+  color: #FEA313;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fcbd20;
+  color: #FEA313;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -6838,19 +6838,19 @@ p {
     border-color: rgba(34, 34, 34, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #666;
+    color: #22296f;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fcbd20;
+    color: #FEA313;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #666;
+    color: #22296f;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fcbd20;
+    color: #FEA313;
   }
 }
 header {
@@ -7071,7 +7071,7 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #666;
+  background-color: #22296f;
   padding: 25px 0;
   color: #fff;
   text-align: center;
@@ -7094,12 +7094,12 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fcbd20;
-  background: -webkit-linear-gradient(#fcbd20, #fdc539);
-  background: linear-gradient(#fcbd20, #fdc539);
+  background: #FEA313;
+  background: -webkit-linear-gradient(#FEA313, #FEA313);
+  background: linear-gradient(#FEA313, #FEA313);
 }
 .text-primary {
-  color: #fcbd20;
+  color: #FEA313;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -7115,8 +7115,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fcbd20;
-  border-color: #fcbd20;
+  background-color: #FEA313;
+  border-color: #FEA313;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -7131,12 +7131,12 @@ footer ul li a.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #666;
+  background: #22296f;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #666;
+  background: #22296f;
 }
 img::selection {
   color: white;
@@ -7147,7 +7147,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #666;
+  webkit-tap-highlight-color: #22296f;
 }
 /* end new age theme */
 /* Costumized settings for be an we.js theme. */
@@ -7302,7 +7302,7 @@ hr {
   padding-bottom: 5px;
 }
 .header-topbar {
-  background-color: #FFD15A;
+  background-color: #22296f;
   padding: 15px 0;
   color: #000;
 }
@@ -7336,7 +7336,7 @@ hr {
   background-color: #e6e6e6;
 }
 .icon-style-1 li a {
-  color: #000;
+  color: #030731;
   display: block;
 }
 .footer-site-description {
@@ -7353,7 +7353,7 @@ hr {
   font-weight: bold;
 }
 .hotel-event-teaser h2 a {
-  color: #000;
+  color: #030731;
 }
 .hotel-event-dates {
   margin-bottom: 8px;
@@ -7370,7 +7370,7 @@ hr {
 }
 .hotel-room-name {
   font-weight: bold;
-  color: #000;
+  color: #030731;
 }
 .hotel-rooms-title {
   border-bottom: 1px solid #ccc;
@@ -7574,13 +7574,13 @@ body.iframe-page-type footer {
 }
 .d-form-title {
   font-weight: bold;
-  color: #ab4240;
+  color: #FEA313;
 }
 .form-title-field,
 .we-form-group-title {
   font-size: 20px;
   font-weight: bold;
-  color: #ab4240;
+  color: #FEA313;
 }
 .comments {
   border: none;
@@ -7602,7 +7602,7 @@ body.iframe-page-type footer {
   text-transform: capitalize;
   background: #eee;
   border-radius: 3px 0 0 3px;
-  color: #ab4240;
+  color: #FEA313;
   display: inline-block;
   height: 26px;
   line-height: 26px;
@@ -7695,7 +7695,7 @@ body.body-main-index #region-content .widget.widget-slideshow a.btn {
   font-size: 10px;
 }
 body.body-main-index #region-content .widget.widget-slideshow a.btn:hover {
-  background-color: #fcbd20;
+  background-color: #FEA313;
 }
 body.body-main-index #region-content .widget.widget-slideshow .header-content .header-content-inner {
   position: relative;
