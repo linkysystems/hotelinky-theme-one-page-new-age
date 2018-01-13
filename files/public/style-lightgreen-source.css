@@ -7438,6 +7438,11 @@ body.iframe-page-type footer {
 .g-recaptcha {
   margin-bottom: 10px;
 }
+.donation-paypal-button,
+.donation-custom-text,
+.donation-pagseguro-button {
+  margin-bottom: 15px;
+}
 #weAdminBar {
   direction: ltr;
   font-size: 13px;
