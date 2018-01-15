@@ -7654,6 +7654,18 @@ body.iframe-page-type footer {
   color: #fff;
   text-decoration: underline;
 }
+#region-sidebar .widget-mailchimp-subscription-form {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#region-sidebar .widget-mailchimp-subscription-form h3 {
+  margin-top: 0px;
+}
 @media (max-width: 768px) {
   body.body-main-index #region-content .widget.widget-slideshow h2 {
     font-size: 14px;
