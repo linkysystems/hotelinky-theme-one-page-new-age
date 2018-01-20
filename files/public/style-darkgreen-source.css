@@ -7666,6 +7666,18 @@ body.iframe-page-type footer {
 #region-sidebar .widget-mailchimp-subscription-form h3 {
   margin-top: 0px;
 }
+.with-site-logo .navbar-brand .site-name {
+  display: none;
+}
+.with-site-logo .navbar-brand img {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  max-width: 100px;
+  width: auto;
+  margin-top: -16px;
+  z-index: 10;
+  position: absolute;
+}
 @media (max-width: 768px) {
   body.body-main-index #region-content .widget.widget-slideshow h2 {
     font-size: 14px;

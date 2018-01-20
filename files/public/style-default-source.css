@@ -7670,6 +7670,7 @@ body.iframe-page-type footer {
   display: none;
 }
 .with-site-logo .navbar-brand img {
+  border: 1px solid #fff;
   border-radius: 5px;
   max-width: 100px;
   width: auto;
