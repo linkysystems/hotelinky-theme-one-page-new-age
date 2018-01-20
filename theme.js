@@ -146,15 +146,7 @@ module.exports = {
           name: 'Depois do conteúdo'
         }
       }
-    },
-    'eventHome': {
-      template: __dirname + '/templates/server/layouts/event-home-layout.hbs',
-      regions: {
-        highlighted: {
-          name: 'Highlighted'
-        },
-      }
-    },
+    }
   },
   widgets: {
     // 'we-cf-speakers': __dirname + '/templates/server/widgets/we-cf-speakers.hbs',
