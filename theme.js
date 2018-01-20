@@ -149,11 +149,8 @@ module.exports = {
     }
   },
   widgets: {
-    // 'we-cf-speakers': __dirname + '/templates/server/widgets/we-cf-speakers.hbs',
-    // 'we-cf-schedule': __dirname + '/templates/server/widgets/we-cf-schedule.hbs',
     'html': __dirname + '/templates/server/widgets/html-widget.hbs',
-    // 'we-cf-topics': __dirname + '/templates/server/widgets/we-cf-topics.hbs',
-    // 'we-cf-video': __dirname + '/templates/server/widgets/we-cf-video.hbs',
-    // 'we-cf-news': __dirname + '/templates/server/widgets/we-cf-news.hbs'
+    'news': __dirname + '/templates/server/widgets/news.hbs',
+    'simple-event': __dirname + '/templates/server/widgets/simple-event.hbs'
   }
 };
