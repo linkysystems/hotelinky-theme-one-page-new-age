@@ -7681,15 +7681,6 @@ body.iframe-page-type footer {
   z-index: 10;
   position: absolute;
 }
-.widget-simple-event .panel,
-.widget-news .panel {
-  border: 1px solid #ab4240;
-  box-shadow: 0 1px 1px #ab4240;
-}
-.widget-simple-event .panel .panel-body,
-.widget-news .panel .panel-body {
-  border-top: 4px double #ab4240;
-}
 .widget-simple-event .widget-news-item,
 .widget-news .widget-news-item {
   border-bottom: 1px dashed #ccc;
@@ -7918,8 +7909,6 @@ body.iframe-page-type footer {
   padding: 15px;
 }
 body.body-main-index .hotel-event-teaser {
-  border: 1px solid #ab4240;
-  box-shadow: 0 1px 1px #ab4240;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 15px;

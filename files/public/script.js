@@ -2772,6 +2772,6 @@ if (typeof jQuery === 'undefined') {
   });
 
   $(function() {
-    $('.match-grid-col-scroll .panel').matchHeight();
+    $('.match-grid-col-scroll').matchHeight();
   });
 })(jQuery);
