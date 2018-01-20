@@ -1,28 +1,4 @@
-{{#if req.user.id}}
-  <div id="weAdminBar">
-    <div class="container">
-      {{#if menuAuthenticated}}
-        <ul class="nav navbar-right">
-          <li>
-            <a href="/notification" class="main-menu-notification-link">
-              <span class="glyphicon glyphicon-bell"></span>
-              <span class="main-menu-link-notification-count badge"></span>
-              <span class="main-menu-notification-text">{{t 'notification.find'}}</span>
-            </a>
-          </li>
-          <li class="dropdown">
-            <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">
-              Olá, {{req.user.displayName}} {{we-avatar id=req.user.id style='thumbnail' width="18px"}}
-            </a>
-            {{we-menu menuAuthenticated class="dropdown-menu"}}
-          </li>
-        </ul>
-      {{else}}{{we-menu userMenu class="nav navbar-right"}}{{/if}}
-    </div>
-  </div>
-  <div id="afterWeadmin"></div>
-{{/if}}
-
+{{{template 'partials/header-topbar'}}}
 <div class="header-topbar">
   <div class="container padding-none">
     <div class="row">
@@ -52,7 +28,7 @@
     </div>
   </div>
 </div>
-<nav id="mainNav" class="navbar navbar-default">
+<nav id="mainNav" class="navbar navbar-default {{#if req.we.systemSettings.logoUrl}}with-site-logo{{/if}}">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
@@ -64,7 +40,7 @@
                alt="Logo" >
         {{/if}}
         {{#if req.we.systemSettings.siteName}}
-          <span>{{req.we.systemSettings.siteName}}</span>
+          <span class="site-name">{{req.we.systemSettings.siteName}}</span>
         {{/if}}
       </a>
     </div>
