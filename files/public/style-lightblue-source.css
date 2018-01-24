@@ -6724,6 +6724,9 @@ button.close {
     display: none !important;
   }
 }
+footer h4 {
+  font-weight: bold;
+}
 /* fix font path: */
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -6841,7 +6844,7 @@ p {
     border-color: rgba(34, 34, 34, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #71C3B7;
+    color: #111738;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
@@ -6849,7 +6852,7 @@ p {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #71C3B7;
+    color: #111738;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -7074,9 +7077,9 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 footer {
-  background-color: #71C3B7;
+  background-color: #111738;
   padding: 25px 0;
-  color: #182c2f;
+  color: #fff;
   text-align: center;
 }
 footer p {
@@ -7088,7 +7091,7 @@ footer ul {
 }
 footer ul li a {
   font-size: 12px;
-  color: #182c2f;
+  color: #fff;
 }
 footer ul li a:hover,
 footer ul li a:focus,
@@ -7134,12 +7137,12 @@ footer ul li a.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #71C3B7;
+  background: #111738;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #71C3B7;
+  background: #111738;
 }
 img::selection {
   color: white;
@@ -7150,7 +7153,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #71C3B7;
+  webkit-tap-highlight-color: #111738;
 }
 /* end new age theme */
 /* Costumized settings for be an we.js theme. */

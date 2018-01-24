@@ -11,7 +11,7 @@
           <address>
             {{#if req.we.systemSettings.siteAddress}}
               <p>
-                <i class="glyphicon glyphicon-pushpin" aria-hidden="true"></i> {{req.we.systemSettings.siteAddress}}
+                <i class="glyphicon glyphicon-pushpin" aria-hidden="true"></i> {{{req.we.systemSettings.siteAddress}}}
               </p>
             {{/if}}
             <ul class="list-unstyled">
@@ -27,7 +27,7 @@
               {{/if}}
               {{#if req.we.systemSettings.siteDaysOfService}}
                 <li>
-                  <i class="glyphicon glyphicon-time"aria-hidden="true"></i> {{req.we.systemSettings.siteDaysOfService}}
+                  <i class="glyphicon glyphicon-time"aria-hidden="true"></i> {{{req.we.systemSettings.siteDaysOfService}}}
                 </li>
               {{/if}}
               {{#if req.we.systemSettings.siteEmail1}}
