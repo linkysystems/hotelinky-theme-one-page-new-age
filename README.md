@@ -4,7 +4,7 @@ Build for Hotelinky projects, see more in https://linkysystems.com .
 
 Based in https://startbootstrap.com/template-overviews/new-age/ with many changes.
 
-We.js theme!
+We.js theme! 
 
 ## Licence
 
