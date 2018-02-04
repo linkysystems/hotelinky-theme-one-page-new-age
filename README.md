@@ -1,6 +1,6 @@
 # One Page New Age Hotelinky theme
 
-Build for Hotelinky projects, see more in https://linkysystems.com/
+Build for Hotelinky projects, see more in https://linkysystems.com .
 
 Based in https://startbootstrap.com/template-overviews/new-age/ with many changes.
 
