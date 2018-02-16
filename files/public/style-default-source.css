@@ -7674,7 +7674,6 @@ body.iframe-page-type footer {
   display: none;
 }
 .with-site-logo .navbar-brand img {
-  border-radius: 5px;
   max-width: 100px;
   width: auto;
   margin-top: -20px;
