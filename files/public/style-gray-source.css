@@ -7964,6 +7964,16 @@ body.body-main-index .hotel-event-teaser .hotel-event-about {
     margin-top: 5px;
   }
 }
+.hotel-card-conditions-text {
+  border: 3px solid #ccc;
+  padding: 15px;
+}
+.hotel-card-conditions-text {
+  font-size: 13px;
+}
+.hotel-card-conditions-text p {
+  font-size: 13px;
+}
 @media (max-width: 768px) {
   body.body-main-index #region-content .widget.widget-slideshow h2 {
     font-size: 14px;
