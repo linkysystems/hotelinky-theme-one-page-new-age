@@ -58,11 +58,12 @@
               </button>
               </span>
             </div>
-            <!-- /.input-group -->
           </form>
         </div>
       </div>
     </div>
+
+    {{{template 'content/share-block'}}}
 
     {{#if data.tags.length}}
       <div class="sidebar-module">
@@ -78,7 +79,6 @@
     {{#if data.attachment.length}}
     <div class="well">
       <h4>Arquivos</h4>
-      {{!-- files list galery --}}
       {{#each data.attachment}}
         <a href="{{urls.original}}" download><i class="fa fa-download" aria-hidden="true"></i> {{originalname}}</a>
       {{/each}}

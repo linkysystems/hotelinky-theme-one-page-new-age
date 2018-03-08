@@ -24,11 +24,13 @@
     {{#if data.allowComments}}
       <hr>
       <div class="content-comments">
-        {{{comments modelName="content" modelId=data.id comments=data.metadata.comments count=data.metadata.commentCount locals=this}}}
+        {{{comments modelName="hotel-event-structure" modelId=data.id comments=data.metadata.comments count=data.metadata.commentCount locals=this}}}
       </div>
     {{/if}}
   </div>
   <div class="col-md-4 col-lg-4">
+    {{{template 'hotel-event/share-block'}}}
+
     {{#if data.tags.length}}
       <div class="sidebar-module">
         <div class="panel panel-default">

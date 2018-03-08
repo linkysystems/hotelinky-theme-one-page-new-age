@@ -7974,6 +7974,46 @@ body.body-main-index .hotel-event-teaser .hotel-event-about {
 .hotel-card-conditions-text p {
   font-size: 13px;
 }
+.share-block {
+  margin-top: 0px;
+}
+.share-block a {
+  color: #fff;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.share-block a img {
+  width: 44px;
+  margin: 0px -4px;
+}
+.btn-linkedin {
+  background-color: #005E9A !important;
+}
+.btn-facebook {
+  background-color: #005E9A !important;
+}
+.btn-twitter {
+  background-color: #00ACE2 !important;
+}
+.btn-print {
+  background-color: #00524D !important;
+}
+.s-whatsapp-mobile,
+.dropdown-menu > li > a.s-whatsapp-mobile {
+  display: none;
+}
+.s-whatsapp-site,
+.dropdown-menu > li > a.s-whatsapp-site {
+  display: inline;
+}
+body.is-mobile .s-whatsapp-mobile,
+body.is-mobile .dropdown-menu > li > a.s-whatsapp-mobile {
+  display: inline;
+}
+body.is-mobile .s-whatsapp-site,
+body.is-mobile .dropdown-menu > li > a.s-whatsapp-site {
+  display: none;
+}
 @media (max-width: 768px) {
   body.body-main-index #region-content .widget.widget-slideshow h2 {
     font-size: 14px;

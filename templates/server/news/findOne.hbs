@@ -1,5 +1,14 @@
+<ol class="breadcrumb">
+  <li><a href="/">Início</a></li>
+  <li><a href="/news">{{t "news.find"}}</a></li>
+  <li class="active">{{we-strip-tags text=data.title maxLength=40}}</li>
+</ol>
+
 <div class="row content-view-record news-item">
   <div class="col-md-8 col-lg-8">
+    {{#if data.featuredImage}}
+      {{we-image data.featuredImage "banner" class="img-responsive img-thumbnail featured-image-findOne"}}
+    {{/if}}
     <h1>{{data.title}}
       {{#can permission='update_news' roleNames=req.userRoleNames}}
         <a href="/admin/#/news/{{data.id}}" class="btn btn-default">Editar</a>
@@ -11,9 +20,6 @@
         {{#if data.category.length}}- {{#each data.category}}{{this}}{{/each}}{{/if}}
       </small>
     </p>
-    {{#if data.featuredImage}}
-      {{we-image data.featuredImage "banner" class="img-responsive"}}
-    {{/if}}
     <div class="content-body">{{{data.body}}}</div>
     {{#if data.images.length}}
       <hr>
@@ -49,6 +55,9 @@
         </div>
       </div>
     </div>
+
+    {{{template 'news/share-block'}}}
+
     {{#if data.tags.length}}
       <div class="sidebar-module">
         <div class="panel panel-default">
