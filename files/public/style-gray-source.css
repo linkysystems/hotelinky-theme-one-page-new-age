@@ -8014,6 +8014,9 @@ body.is-mobile .s-whatsapp-site,
 body.is-mobile .dropdown-menu > li > a.s-whatsapp-site {
   display: none;
 }
+.widget-news-panel {
+  min-height: 535px;
+}
 @media (max-width: 768px) {
   body.body-main-index #region-content .widget.widget-slideshow h2 {
     font-size: 14px;
