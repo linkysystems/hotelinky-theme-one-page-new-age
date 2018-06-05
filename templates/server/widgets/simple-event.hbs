@@ -4,6 +4,10 @@
       {{#each widget.events}}
         {{render-record-teaser modelName='simple-event' record=this locals=../locals}}
       {{/each}}
+
+      <div class="home-more-link">
+        <button class="btn btn-default">Mais eventos</button>
+      </div>
     </div>
   {{else}}
     {{#each widget.events}}
