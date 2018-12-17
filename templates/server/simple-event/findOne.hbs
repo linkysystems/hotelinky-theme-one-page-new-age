@@ -6,12 +6,7 @@
 
 <div class="row hotel-event-view-record">
   <div class="col-lg-8">
-    {{#if data.featuredImage}}
-      <!-- Preview Image -->
-      {{we-image data.featuredImage "banner" class="img-responsive img-thumbnail featured-image-findOne"}}
-    {{/if}}
-
-    <h1>{{data.name}}
+    <h1 class="event-title">{{data.name}}
       {{#can permission='update_simple-event' roleNames=req.userRoleNames}}
         <a href="/admin/#/simple-events/{{data.id}}" class="btn btn-default">Editar</a>
       {{/can}}
