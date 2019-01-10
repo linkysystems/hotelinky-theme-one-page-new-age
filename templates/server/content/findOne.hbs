@@ -11,16 +11,6 @@
         <a href="/admin/#/contents/{{data.id}}" class="btn btn-default">Editar</a>
       {{/can}}
     </h1>
-{{!--     <p class="content-publication-data">
-      <small>
-        <span class="glyphicon glyphicon-time"></span> Postado em {{we-date data.publishedAt "LL" locals=this}}
-        {{#if data.category.length}}- {{#each data.category}}{{this}}{{/each}}{{/if}}
-      </small>
-    </p> --}}
-
-    {{#if data.featuredImage}}
-      {{we-image data.featuredImage "banner" class="img-responsive img-thumbnail featured-image-findOne"}}
-    {{/if}}
 
     <div class="content-body">{{{data.body}}}</div>
 
