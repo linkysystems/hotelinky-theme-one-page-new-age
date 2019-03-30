@@ -11,7 +11,7 @@
         {{#if relatedRecord}}
           {{#isPair @key}}
             <div class="term-related-record">
-              {{render-record-teaser modelName=modelName record=relatedRecord locals=..}}
+              {{render-record-teaser modelName=modelName record=relatedRecord locals=../../..}}
             </div>
           {{else}}{{/isPair}}
         {{/if}}
@@ -24,7 +24,9 @@
 
           {{#isPair @key}}{{else}}
             <div class="term-related-record">
-              {{render-record-teaser modelName=modelName record=relatedRecord locals=..}}
+              {{log ../req.method}}
+              {{log 'oi'}}
+              {{render-record-teaser modelName=modelName record=relatedRecord locals=../../..}}
             </div>
           {{/isPair}}
         {{/if}}
