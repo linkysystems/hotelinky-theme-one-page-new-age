@@ -8122,3 +8122,6 @@ body.body-main-index #region-content .widget.widget-slideshow .device-container 
     margin: 100px auto 0;
   }
 }
+.event-title {
+  margin-top: 0px;
+}
