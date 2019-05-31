@@ -7765,9 +7765,17 @@ body.body-main-index #region-content .widget.widget-slideshow .device-container 
 }
 .body-main-index .widget-post-newest {
   margin-top: 60px;
+  margin-bottom: 30px;
 }
 .body-main-index .widget-post-newest .widget-header h3 {
   text-align: center;
+}
+.widget-post-newest .post-creator img {
+  margin-top: 3px;
+  border-radius: 4px;
+  height: 30px;
+  width: auto;
+  max-width: 40%;
 }
 #region-sidebar .widget-mailchimp-subscription-form {
   margin-bottom: 20px;

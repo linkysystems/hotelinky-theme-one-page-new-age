@@ -2,7 +2,7 @@
   <div class="post-header">
     <div class="post-creator">
       {{#link-to 'user.findOne' record.creatorId}}
-      {{we-avatar id=record.creatorId style='thumbnail' width="25px" height="25px"}}
+      {{we-avatar id=record.creatorId style='thumbnail'}}
       <strong>{{record.creator.displayName}}</strong>
       {{/link-to}}
       <small>@{{record.creator.id}}</small>
