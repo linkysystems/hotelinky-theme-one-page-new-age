@@ -9,6 +9,9 @@
       {{req.we.config.appName}}
     {{/if}}
   </title>
+
+  {{we-event event="we-html-head-start"}}
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   {{#if _csrf}}<meta name="csrf-token" content="{{_csrf}}" />{{/if}}
@@ -27,6 +30,8 @@
   {{{render-metadata-tags}}}
   {{{render-stylesheet-tags}}}
   {{{render-javascript-tags 'header'}}}
+
+  {{we-event event="we-html-head-end"}}
 </head>
 <body id="page-top" class="body-{{controller}}-{{action}} {{#each req.userRoleNames}}ur-{{this}} {{/each}} {{iframeClass}}">
 
