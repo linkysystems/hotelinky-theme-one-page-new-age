@@ -24,8 +24,6 @@
 
           {{#isPair @key}}{{else}}
             <div class="term-related-record">
-              {{log ../req.method}}
-              {{log 'oi'}}
               {{render-record-teaser modelName=modelName record=relatedRecord locals=../../..}}
             </div>
           {{/isPair}}

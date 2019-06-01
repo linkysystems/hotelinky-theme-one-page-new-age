@@ -7565,6 +7565,9 @@ body.iframe-page-type footer {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+.post-creator img {
+  max-width: 50px;
+}
 .we-form-group {
   margin-top: 20px;
   margin-bottom: 30px;
